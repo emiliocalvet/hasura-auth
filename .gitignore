@@ -1,0 +1,5 @@
+hasura_db/*
+sample_db/*
+
+!hasura_db/.gitkeep
+!sample_db/.gitkeep
