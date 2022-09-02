@@ -4,7 +4,7 @@ import 'package:shelf/shelf.dart';
 import 'package:shelf_modular/shelf_modular.dart';
 
 class AppModule extends Module {
-  final String graphQLApiUrl = 'graphql-engine:8080/v1/graphql';
+  final String graphQLApiUrl = 'http://graphql-engine:8080/v1/graphql';
   final Map<String, String> headers = {'x-hasura-admin-secret': 'Senha123'};
 
   @override
