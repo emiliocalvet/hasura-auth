@@ -56,7 +56,7 @@ class AuthResource extends Resource {
       ..setClaim(
         'https://hasura.io/jwt/claims',
         {
-          "x-hasura-allowed-roles": ['admin', 'editor', 'user'],
+          "x-hasura-allowed-roles": ['admin', 'user'],
           "x-hasura-default-role": user['default_role'],
           "x-hasura-user-id": user['id'].toString(),
           "x-hasura-org-id": user['company_id'].toString(),
